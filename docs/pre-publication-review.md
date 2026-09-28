@@ -9,6 +9,8 @@ title: Pre-publication review
 
 This is a local pre-push review of the build-25G83 research snapshot. It does not approve publication or assert that the entire installer dataset is semantically audited.
 
+**Subsequent outcome:** The owner selected `hideouts-io/macos-install-security-research` and CC BY 4.0. The repository and GitHub Pages site were published as a partial snapshot; validation and Pages deployment passed on commit `0da15ca`. The original local checks below remain a dated review record.
+
 The recommended publication layout is a standalone `hideouts-io/macos-install-security-research` repository, followed by a short link from `hideouts-io/Apple-Infrastructure-Research`. The latter currently has an MIT license and a networking/cloud-log focus; keeping this CC BY 4.0 investigation separate avoids mixing license scopes and gives the partial-audit status its own landing page.
 
 ## READY
@@ -28,12 +30,12 @@ The recommended publication layout is a standalone `hideouts-io/macos-install-se
 
 ## REQUIRES DECISION
 
-- The owner has requested publication as an explicitly partial snapshot. Confirm the GitHub repository location: the recommended standalone name is `hideouts-io/macos-install-security-research`. If the name differs, update `_config.yml`'s `baseurl` and rerun the rendered-site validator first.
-- Review the most consequential security interpretations and third-party attributions against the privately retained evidence before authorizing a public push.
+- No repository-location or license choice remains for this snapshot. Any later rename must update `_config.yml`'s `baseurl` and rerun the rendered-site validator.
+- Continue reviewing consequential security interpretations and third-party attributions against the privately retained evidence; publish corrections if that review changes a conclusion.
 
 ## BLOCKERS
 
-No additional technical blocker was found in the local build, authored links, public-file boundary, or checksum validation. The exact repository location is the remaining publication-routing decision.
+No additional technical blocker was found in the local build, authored links, public-file boundary, or checksum validation. The repository and Pages publication checks subsequently passed.
 
 ## OPTIONAL IMPROVEMENTS
 

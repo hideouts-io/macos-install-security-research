@@ -6,6 +6,8 @@
 
 The research began with a retained `macOS Install Data` staging tree. It compares that tree with the matching Apple distribution, reconstructs update and recovery images, and traces selected privileged paths from launch configuration through update services, ramrod, firmware helpers, EFI device paths, NVRAM, and trust checks. It also records what the collection cannot prove. The [audit overview](docs/audit-overview.md) gives the concise assessment; the pages below contain the evidence and limits.
 
+The partial snapshot is available as a [GitHub Pages research site](https://hideouts-io.github.io/macos-install-security-research/). The site and repository publish derived findings, not the private source evidence.
+
 > **Current boundary:** 147,253 inventory objects are registered across seven scopes. Seventy-two paths have bounded semantic review, 147,181 remain pending, and **zero whole objects have been declared completely reverse engineered**. Stage 6F.7 is partial. The inventory is extensive; the semantic audit is not complete.
 
 ## Read the research
@@ -54,4 +56,4 @@ Raw Apple binaries, full disassembly, machine-specific evidence, and private wor
 
 Run `python3 scripts/validate_repository.py .` to check the finding IDs, local links, anchors, checksums, and public-file boundary. `python3 scripts/verify_artifact.py PATH EXPECTED_SHA256` verifies a locally obtained artifact without uploading it. The [reproduction guide](docs/reproduction.md) includes the local Jekyll build and rendered-link check and identifies which research results require privately held source artifacts or hardware.
 
-The original research and scripts are licensed under [CC BY 4.0](LICENSE) to the extent stated in the [license scope](docs/licensing-review.md); cited third-party material is not relicensed. The repository includes a local-tested [GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) configuration. The [readiness report](docs/repository-readiness.md) and [pre-publication review](docs/pre-publication-review.md) record the validation and remaining deployment decisions.
+The original research and scripts are licensed under [CC BY 4.0](LICENSE) to the extent stated in the [license scope](docs/licensing-review.md); cited third-party material is not relicensed. The [readiness report](docs/repository-readiness.md) and [publication review](docs/pre-publication-review.md) record the validation and evidence limits.

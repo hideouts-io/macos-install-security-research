@@ -21,7 +21,7 @@ jobs:
         run: python3 scripts/validate_repository.py .
       - name: Build GitHub Pages site
         env:
-          PAGES_REPO_NWO: local/macos-install-security-research
+          PAGES_REPO_NWO: hideouts-io/macos-install-security-research
         run: bundle exec jekyll build --trace
       - name: Validate rendered navigation and diagrams
         run: python3 scripts/validate_rendered_site.py _site /macos-install-security-research

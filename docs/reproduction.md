@@ -15,18 +15,18 @@ An authorized holder of the retained source workspace can also run `python3 scri
 
 ### Local Pages preview
 
-Use Ruby 3.4 and the checked-in `Gemfile.lock`. GitHub Pages' pinned dependency set did not resolve under Ruby 4.0 during this local review. Install gems into the repository and render with a placeholder repository name only while no GitHub remote exists:
+Use Ruby 3.4 and the checked-in `Gemfile.lock`. GitHub Pages' pinned dependency set did not resolve under Ruby 4.0 during the local review. Install gems into the repository and render with the published repository name:
 
 ```sh
 bundle config set --local path .bundle/vendor
 bundle install
 python3 scripts/validate_repository.py .
-PAGES_REPO_NWO=local/macos-install-security-research bundle exec jekyll build --trace
+PAGES_REPO_NWO=hideouts-io/macos-install-security-research bundle exec jekyll build --trace
 python3 scripts/validate_rendered_site.py _site /macos-install-security-research
-PAGES_REPO_NWO=local/macos-install-security-research bundle exec jekyll serve --host 127.0.0.1 --port 4000
+PAGES_REPO_NWO=hideouts-io/macos-install-security-research bundle exec jekyll serve --host 127.0.0.1 --port 4000
 ```
 
-The local preview URL is `http://127.0.0.1:4000/macos-install-security-research/`. The placeholder supplies GitHub metadata to Jekyll before a remote exists; its “View on GitHub” link is not a real repository. At publication, confirm the actual repository name matches `_config.yml`'s `baseurl`, or update `baseurl` and rerun the rendered-link check. The workflow in `.github/workflows/validate.yml` builds and checks the site; it does not deploy it.
+The local preview URL is `http://127.0.0.1:4000/macos-install-security-research/`. The published [Pages site](https://hideouts-io.github.io/macos-install-security-research/) uses the same `baseurl`. If the repository is renamed, update `_config.yml` and rerun the rendered-link check. The workflow in `.github/workflows/validate.yml` builds and checks the site; branch-backed GitHub Pages performs the public deployment separately.
 
 Eleven editable Mermaid sources are paired with checked-in SVGs, because GitHub Pages renders Mermaid code fences as code. To regenerate those SVGs, run `npm ci` with `PUPPETEER_SKIP_DOWNLOAD=1`, set `PUPPETEER_EXECUTABLE_PATH` to an existing Chrome or Chromium executable, and run `npm run render:diagrams`. Then update `evidence/checksums.sha256` and rerun the repository validator. The SVGs are publication assets; the `.mmd` files preserve the reviewable graph definitions.
 

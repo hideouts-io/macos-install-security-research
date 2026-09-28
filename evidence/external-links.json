@@ -1,5 +1,5 @@
 {
-  "checked_urls": 71,
+  "checked_urls": 74,
   "results": [
     {
       "url": "https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software",
@@ -118,13 +118,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://developer.apple.com/library/archive/technotes/tn2206/",
-      "warning": ""
-    },
-    {
-      "url": "https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll",
       "warning": ""
     },
     {
@@ -373,6 +366,27 @@
       "warning": ""
     },
     {
+      "url": "https://github.com/hideouts-io/macos-install-security-research",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/hideouts-io/macos-install-security-research",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/hideouts-io/macos-install-security-research/actions/runs/36400645630",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/hideouts-io/macos-install-security-research/actions/runs/36400645630",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/hideouts-io/macos-install-security-research/actions/runs/36400821744",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/hideouts-io/macos-install-security-research/actions/runs/36400821744",
+      "warning": ""
+    },
+    {
       "url": "https://github.com/libimobiledevice/idevicerestore/blob/60192e97f87d1bbab5c493684e0a245b0966363f/src/ace3.c",
       "method": "HEAD",
       "http_status": 200,
@@ -412,6 +426,13 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://github.com/tianocore/edk2/blob/6abc1c06585ffd66d23a74811a930d8d0f88cef7/MdePkg/Include/Uefi/UefiSpec.h",
+      "warning": ""
+    },
+    {
+      "url": "https://hideouts-io.github.io/macos-install-security-research/",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://hideouts-io.github.io/macos-install-security-research/",
       "warning": ""
     },
     {
