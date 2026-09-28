@@ -6,6 +6,7 @@ _site/
 .jekyll-cache/
 .bundle/
 node_modules/
+vendor/
 private-evidence/
 raw-evidence/
 *.dmg

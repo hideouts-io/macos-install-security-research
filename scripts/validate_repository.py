@@ -53,7 +53,7 @@ def validate_link(root: Path, source: Path, target_text: str) -> None:
 
 def validate_markdown(root: Path) -> tuple[int, int]:
     """Check every local Markdown link and code-fence balance."""
-    ignored: set[str] = {".git", ".bundle", "node_modules", "_site", ".jekyll-cache"}
+    ignored: set[str] = {".git", ".bundle", "node_modules", "vendor", "_site", ".jekyll-cache"}
     pages: list[Path] = sorted(page for page in root.rglob("*.md") if not any(part in ignored for part in page.relative_to(root).parts))
     checked_links: int = 0
     for page in pages:
@@ -111,7 +111,7 @@ def validate_public_boundary(root: Path) -> int:
     forbidden_text: tuple[str, ...] = ("/Us" + "ers/", "mac" + "bookpro", "-----BEGIN " + "PRIVATE KEY-----", "-----BEGIN " + "OPENSSH PRIVATE KEY-----")
     files: list[Path] = []
     for path in root.rglob("*"):
-        if not path.is_file() or any(part in {".git", "__pycache__", "_site", ".jekyll-cache", ".bundle", "node_modules"} for part in path.relative_to(root).parts):
+        if not path.is_file() or any(part in {".git", "__pycache__", "_site", ".jekyll-cache", ".bundle", "node_modules", "vendor"} for part in path.relative_to(root).parts):
             continue
         if any(part in {"private-evidence", "raw-evidence"} for part in path.relative_to(root).parts):
             raise ValidationError(f"private evidence directory present: {path}")
