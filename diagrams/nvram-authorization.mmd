@@ -1,0 +1,8 @@
+flowchart LR
+  A[NVRAM variable name] --> B[normalize name]
+  B --> C[compiled nvram-set FSA patterns]
+  C --> D[terminal and initial action combine]
+  D -. process profile eval and second combine unresolved .-> E[Process profile contribution]
+  E -. approval modifier and final status unresolved .-> F[Final low status]
+  F -. actual caller result unobserved .-> G[MAC result consumed by IOKit path]
+  G -. separate boundary .-> H[EFI Runtime Services request]

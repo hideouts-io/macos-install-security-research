@@ -1,0 +1,8 @@
+flowchart LR
+    A[Configured helper directory] --> B[Exists and not a directory]
+    B --> C[Compiled basename allowlist]
+    C --> D[Helper invoked with payload directory and -s]
+    D --> E[Captured stdout property list]
+    E --> F[BlessData and staged EFI payloads]
+    F --> G[MultiUpdater child selection and verification requests]
+    G --> H[EFI flasher and hardware firmware boundary]

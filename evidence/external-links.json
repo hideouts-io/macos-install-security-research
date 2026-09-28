@@ -1,0 +1,502 @@
+{
+  "checked_urls": 71,
+  "results": [
+    {
+      "url": "https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software",
+      "warning": ""
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://creativecommons.org/licenses/by/4.0/",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/corefoundation/cfpreferencescopyvalue(_:_:_:_:)",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/corefoundation/cfpreferencescopyvalue(_:_:_:_:)",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/foundation/nsxpcconnection/current%28%29",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/foundation/nsxpcconnection/current%28%29",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/foundation/nsxpcconnection/synchronousremoteobjectproxywitherrorhandler%28_%3A%29?changes=_6_2",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/foundation/nsxpcconnection/synchronousremoteobjectproxywitherrorhandler%28_%3A%29?changes=_6_2",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/foundation/scanner/isatend",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/foundation/scanner/isatend",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/foundation/urlsession/authchallengedisposition/performdefaulthandling",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/foundation/urlsession/authchallengedisposition/performdefaulthandling",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/localauthentication/lacontext",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/localauthentication/lacontext",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/security/errseccsweakresourcerules",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/security/errseccsweakresourcerules",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/security/secitemdelete(_:)",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/security/secitemdelete(_:)",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/security/sectaskcopyvalueforentitlement%28_%3A_%3A_%3A%29",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/security/sectaskcopyvalueforentitlement%28_%3A_%3A_%3A%29",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/security/sectaskcreatefromself%28_%3A%29",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/security/sectaskcreatefromself%28_%3A%29",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/security/sectrustgetcertificateatindex(_:_:)",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/security/sectrustgetcertificateatindex(_:_:)",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/security/sharing-access-to-keychain-items-among-a-collection-of-apps",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/security/sharing-access-to-keychain-items-among-a-collection-of-apps",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/documentation/xpc/xpc_connection_mach_service_privileged",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/documentation/xpc/xpc_connection_mach_service_privileged",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html",
+      "warning": ""
+    },
+    {
+      "url": "https://developer.apple.com/library/archive/technotes/tn2206/",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/library/archive/technotes/tn2206/",
+      "warning": ""
+    },
+    {
+      "url": "https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/Microsemi/switchtec-user/blob/c5aac7b5c36e9ea0ef04112365833826c0a6391a/inc/switchtec/mrpc.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/Microsemi/switchtec-user/blob/c5aac7b5c36e9ea0ef04112365833826c0a6391a/inc/switchtec/mrpc.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/Microsemi/switchtec-user/blob/c5aac7b5c36e9ea0ef04112365833826c0a6391a/inc/switchtec/registers.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/Microsemi/switchtec-user/blob/c5aac7b5c36e9ea0ef04112365833826c0a6391a/inc/switchtec/registers.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/Microsemi/switchtec-user/blob/c5aac7b5c36e9ea0ef04112365833826c0a6391a/lib/crc.c",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/Microsemi/switchtec-user/blob/c5aac7b5c36e9ea0ef04112365833826c0a6391a/lib/crc.c",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/Microsemi/switchtec-user/blob/c5aac7b5c36e9ea0ef04112365833826c0a6391a/lib/fw.c",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/Microsemi/switchtec-user/blob/c5aac7b5c36e9ea0ef04112365833826c0a6391a/lib/fw.c",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/acidanthera/OpenCorePkg",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/acidanthera/OpenCorePkg",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/acidanthera/OpenCorePkg/blob/2cc2362d3a2cfec2ad66a752603bb4a5ee092d78/Include/Apple/Guid/AppleCertificate.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/acidanthera/OpenCorePkg/blob/2cc2362d3a2cfec2ad66a752603bb4a5ee092d78/Include/Apple/Guid/AppleCertificate.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/acidanthera/OpenCorePkg/blob/2cc2362d3a2cfec2ad66a752603bb4a5ee092d78/Library/OcAppleImg4Lib/libDERImg4/DER_Img4Manifest.c",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/acidanthera/OpenCorePkg/blob/2cc2362d3a2cfec2ad66a752603bb4a5ee092d78/Library/OcAppleImg4Lib/libDERImg4/DER_Img4Manifest.c",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/acidanthera/OpenCorePkg/blob/2cc2362d3a2cfec2ad66a752603bb4a5ee092d78/Library/OcAppleKeysLib/OcAppleKeysLib.c",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/acidanthera/OpenCorePkg/blob/2cc2362d3a2cfec2ad66a752603bb4a5ee092d78/Library/OcAppleKeysLib/OcAppleKeysLib.c",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/acidanthera/OpenCorePkg/blob/2cc2362d3a2cfec2ad66a752603bb4a5ee092d78/Library/OcPeCoffExtLib/OcPeCoffExtLib.c",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/acidanthera/OpenCorePkg/blob/2cc2362d3a2cfec2ad66a752603bb4a5ee092d78/Library/OcPeCoffExtLib/OcPeCoffExtLib.c",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/acidanthera/OpenCorePkg/blob/6fe4d15cb66596d99d8cfedce69d8fc6dad71886/Include/Apple/Protocol/AppleLoadImage.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/acidanthera/OpenCorePkg/blob/6fe4d15cb66596d99d8cfedce69d8fc6dad71886/Include/Apple/Protocol/AppleLoadImage.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/acidanthera/OpenCorePkg/blob/6fe4d15cb66596d99d8cfedce69d8fc6dad71886/Include/Apple/Protocol/AppleSecureBoot.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/acidanthera/OpenCorePkg/blob/6fe4d15cb66596d99d8cfedce69d8fc6dad71886/Include/Apple/Protocol/AppleSecureBoot.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/CF/blob/main/CFNumber.c",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/CF/blob/main/CFNumber.c",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/IOStorageFamily/blob/main/IOMedia.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/IOStorageFamily/blob/main/IOMedia.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/OpenSSH/blob/2cc66abd7f8f1eb27d6a3074e476514194efe07e/apple_ssh_and_filevault.7",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/OpenSSH/blob/2cc66abd7f8f1eb27d6a3074e476514194efe07e/apple_ssh_and_filevault.7",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/OpenSSH/blob/2cc66abd7f8f1eb27d6a3074e476514194efe07e/sshd-fvunlock/DiskManager.swift",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/OpenSSH/blob/2cc66abd7f8f1eb27d6a3074e476514194efe07e/sshd-fvunlock/DiskManager.swift",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/OpenSSH/blob/2cc66abd7f8f1eb27d6a3074e476514194efe07e/sshd-fvunlock/FileVaultUnlock.swift",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/OpenSSH/blob/2cc66abd7f8f1eb27d6a3074e476514194efe07e/sshd-fvunlock/FileVaultUnlock.swift",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/OpenSSH/blob/2cc66abd7f8f1eb27d6a3074e476514194efe07e/sshd-keygen-wrapper/SSHDWrapper.swift",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/OpenSSH/blob/2cc66abd7f8f1eb27d6a3074e476514194efe07e/sshd-keygen-wrapper/SSHDWrapper.swift",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/OSX/sec/Security/SecPolicy.c#L4398-L4471",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/OSX/sec/Security/SecPolicy.c#L4398-L4471",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/base/SecBase.h#L627",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/base/SecBase.h#L627",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/keychain/headers/SecAccessControl.h#L86-L104",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/keychain/headers/SecAccessControl.h#L86-L104",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/keychain/headers/SecItemPriv.h#L344-L347",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/keychain/headers/SecItemPriv.h#L344-L347",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/keychain/headers/SecItemPriv.h#L521-L533",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/keychain/headers/SecItemPriv.h#L521-L533",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/keychain/headers/SecKeyPriv.h#L891-L953",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/keychain/headers/SecKeyPriv.h#L891-L953",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/trust/headers/SecCertificateRequest.h#L76-L97",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/trust/headers/SecCertificateRequest.h#L76-L97",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/trust/headers/SecTrust.h#L291-L317",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/trust/headers/SecTrust.h#L291-L317",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/trust/headers/SecTrustPriv.h#L236-L250",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/trust/headers/SecTrustPriv.h#L236-L250",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/dyld/blob/dyld-1245.1/include/mach-o/fixup-chains.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/dyld/blob/dyld-1245.1/include/mach-o/fixup-chains.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/dyld/blob/fd8d0c4d52320ebf64db34f3cb280310d905c5ae/include/mach-o/dyld_cache_format.h#L33-L40",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/dyld/blob/fd8d0c4d52320ebf64db34f3cb280310d905c5ae/include/mach-o/dyld_cache_format.h#L33-L40",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/launchd/blob/main/man/launchd.plist.5",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/launchd/blob/main/man/launchd.plist.5",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/xnu/blob/f6217f891ac0bb64f3d375211650a4c1ff8ca1ea/iokit/Kernel/IOUserClient.cpp#L3863-L3935",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/xnu/blob/f6217f891ac0bb64f3d375211650a4c1ff8ca1ea/iokit/Kernel/IOUserClient.cpp#L3863-L3935",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/xnu/blob/f6217f891ac0bb64f3d375211650a4c1ff8ca1ea/osfmk/mach/dyld_kernel_fixups.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/xnu/blob/f6217f891ac0bb64f3d375211650a4c1ff8ca1ea/osfmk/mach/dyld_kernel_fixups.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/xnu/blob/main/bsd/sys/attr.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple-oss-distributions/xnu/blob/main/bsd/sys/attr.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/apple/corecrypto/blob/9612a959abb6eac0aac3ee6a7245c46365c9d81b/ccrsa/src/ccrsa_verify_pkcs1v15.c",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/apple/corecrypto/blob/9612a959abb6eac0aac3ee6a7245c46365c9d81b/ccrsa/src/ccrsa_verify_pkcs1v15.c",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/blacktop/ipsw/blob/ee9db4bc6feeeb45d9625687a66aa3ebbb4dd526/pkg/ftab/ftab.go",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/blacktop/ipsw/blob/ee9db4bc6feeeb45d9625687a66aa3ebbb4dd526/pkg/ftab/ftab.go",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/hideouts-io/StarSecurity-SURamDisk",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/hideouts-io/StarSecurity-SURamDisk",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/libimobiledevice/idevicerestore/blob/60192e97f87d1bbab5c493684e0a245b0966363f/src/ace3.c",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/libimobiledevice/idevicerestore/blob/60192e97f87d1bbab5c493684e0a245b0966363f/src/ace3.c",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/theopolis/uefi-firmware-parser/security/advisories/GHSA-hm2w-vr2p-hq7w",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/theopolis/uefi-firmware-parser/security/advisories/GHSA-hm2w-vr2p-hq7w",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/tianocore/edk2/blob/6abc1c06585ffd66d23a74811a930d8d0f88cef7/MdePkg/Include/Protocol/DevicePath.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/tianocore/edk2/blob/6abc1c06585ffd66d23a74811a930d8d0f88cef7/MdePkg/Include/Protocol/DevicePath.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/tianocore/edk2/blob/6abc1c06585ffd66d23a74811a930d8d0f88cef7/MdePkg/Include/Protocol/LoadedImage.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/tianocore/edk2/blob/6abc1c06585ffd66d23a74811a930d8d0f88cef7/MdePkg/Include/Protocol/LoadedImage.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/tianocore/edk2/blob/6abc1c06585ffd66d23a74811a930d8d0f88cef7/MdePkg/Include/Protocol/PciIo.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/tianocore/edk2/blob/6abc1c06585ffd66d23a74811a930d8d0f88cef7/MdePkg/Include/Protocol/PciIo.h",
+      "warning": ""
+    },
+    {
+      "url": "https://github.com/tianocore/edk2/blob/6abc1c06585ffd66d23a74811a930d8d0f88cef7/MdePkg/Include/Uefi/UefiSpec.h",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://github.com/tianocore/edk2/blob/6abc1c06585ffd66d23a74811a930d8d0f88cef7/MdePkg/Include/Uefi/UefiSpec.h",
+      "warning": ""
+    },
+    {
+      "url": "https://support.apple.com/en-gb/guide/security/sec5d0fab7c6/web",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://support.apple.com/en-gb/guide/security/sec5d0fab7c6/web",
+      "warning": ""
+    },
+    {
+      "url": "https://support.apple.com/en-us/101555",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://support.apple.com/en-us/101555",
+      "warning": ""
+    },
+    {
+      "url": "https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web",
+      "warning": ""
+    },
+    {
+      "url": "https://support.apple.com/guide/security/trust-caches-sec7d38fbf97/web",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://support.apple.com/guide/security/trust-caches-sec7d38fbf97/web",
+      "warning": ""
+    },
+    {
+      "url": "https://swdist.apple.com/content/downloads/37/33/140-93587-A_GRFFH93NOL/f944yaqo1cjhh2m0kxrl0zhcpg9yb9qphv/140-93587.English.dist",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://swdist.apple.com/content/downloads/37/33/140-93587-A_GRFFH93NOL/f944yaqo1cjhh2m0kxrl0zhcpg9yb9qphv/140-93587.English.dist",
+      "warning": ""
+    },
+    {
+      "url": "https://uefi.org/specs/UEFI/2.10/10_Protocols_Device_Path_Protocol.html",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://uefi.org/specs/UEFI/2.10/10_Protocols_Device_Path_Protocol.html",
+      "warning": ""
+    },
+    {
+      "url": "https://uefi.org/specs/UEFI/2.10/10_Protocols_Device_Path_Protocol.html#hard-drive",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://uefi.org/specs/UEFI/2.10/10_Protocols_Device_Path_Protocol.html#hard-drive",
+      "warning": ""
+    },
+    {
+      "url": "https://uefi.org/specs/UEFI/2.11/08_Services_Runtime_Services.html#variable-services",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://uefi.org/specs/UEFI/2.11/08_Services_Runtime_Services.html#variable-services",
+      "warning": ""
+    },
+    {
+      "url": "https://uefi.org/specs/UEFI/2.11/09_Protocols_EFI_Loaded_Image.html",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://uefi.org/specs/UEFI/2.11/09_Protocols_EFI_Loaded_Image.html",
+      "warning": ""
+    },
+    {
+      "url": "https://uefi.org/specs/UEFI/2.11/13_Protocols_Media_Access.html",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://uefi.org/specs/UEFI/2.11/13_Protocols_Media_Access.html",
+      "warning": ""
+    },
+    {
+      "url": "https://www.apple.com/certificateauthority/",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://www.apple.com/certificateauthority/",
+      "warning": ""
+    },
+    {
+      "url": "https://www.microchip.com/en-us/product/pm40100",
+      "method": "GET after HEAD",
+      "http_status": 403,
+      "final_url": "https://www.microchip.com/en-us/product/pm40100",
+      "warning": "HEAD 403: ; GET:"
+    }
+  ]
+}

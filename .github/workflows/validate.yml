@@ -1,0 +1,27 @@
+name: Validate research site
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: ruby/setup-ruby@1287d2b408066abada82d5ad1c63652e758428d9 # v1.214.0
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+      - name: Validate source and public evidence
+        run: python3 scripts/validate_repository.py .
+      - name: Build GitHub Pages site
+        env:
+          PAGES_REPO_NWO: local/macos-install-security-research
+        run: bundle exec jekyll build --trace
+      - name: Validate rendered navigation and diagrams
+        run: python3 scripts/validate_rendered_site.py _site /macos-install-security-research

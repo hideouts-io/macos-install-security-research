@@ -1,0 +1,16 @@
+title: macOS Install Security Research
+description: Partial research snapshot of macOS installation, recovery, firmware, and platform-security forensics
+baseurl: /macos-install-security-research
+theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - scripts
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
+  - node_modules
+  - package.json
+  - package-lock.json

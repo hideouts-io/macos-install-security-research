@@ -1,0 +1,10 @@
+flowchart LR
+  A[BuildManifest and updater metadata] --> B[FirmwareUpdateLauncher]
+  B --> C[Compiled helper basename selection]
+  C -->|selected -p and -s invocation| D[Helper result plist]
+  D --> E[BlessData]
+  E --> F[bless staging]
+  F --> G[Indexed EFI payload path and NVRAM request]
+  G --> H[MultiUpdater child lookup]
+  H --> I[Optional IMG4 verification request]
+  I -. device policy unobserved .-> J[Flasher and controller firmware]

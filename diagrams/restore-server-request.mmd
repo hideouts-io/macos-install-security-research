@@ -1,0 +1,10 @@
+flowchart TD
+    A[Explicit URL or option or compiled default] --> B[Optional digest appended to URL path]
+    B --> C[CopyTrustObject GET request]
+    C --> D[HTTP message and headers]
+    D --> E[Transport options and pre-action callback]
+    E --> F[AMSupportHttpSendSync backend]
+    F --> G[Authentication callback and mutable response outputs]
+    G --> H[Outer status gate: 200 or 202]
+    H --> I[Non-null returned data object]
+    I --> J[Higher-level digest and ticket policy: Stage 6C]

@@ -1,0 +1,6 @@
+flowchart TD
+  A[Measured source bytes and hashes] --> B[Decoded structure or signature integrity]
+  B --> C[Static call and data relationships]
+  C --> D[Supported interpretation]
+  D -. requires separate evidence .-> E[Runtime authorization or execution]
+  E -. requires device observations .-> F[Firmware write, boot result, or compromise]

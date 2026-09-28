@@ -1,0 +1,44 @@
+{
+  "snapshot_date": "2026-09-27",
+  "macos_version": "26.6.2",
+  "build": "25G83",
+  "target_metadata": ["J160AP", "MacPro7,1"],
+  "source_comparison": {
+    "original_regular_files": 1191,
+    "original_files_matching_working_copy": 1191,
+    "update_regular_files_matching_exact_apple_reference": 1186,
+    "symlinks_matching_exact_apple_reference": 3,
+    "separately_matched_installer_integrity_file": 1,
+    "regular_files_with_exact_official_byte_reference": 1187,
+    "regular_files_without_exact_official_byte_reference": 4,
+    "official_reference_regular_files_absent_from_staging": 1047
+  },
+  "coverage": {
+    "source_and_reconstructed_scopes": 7,
+    "regular_file_paths": 105123,
+    "inventory_objects": 147253,
+    "bounded_semantic_paths": 72,
+    "detailed_bounded_path_records": 30,
+    "other_bounded_path_records": 42,
+    "semantic_paths_pending": 147181,
+    "separately_bounded_embedded_components": 8,
+    "whole_objects_closed": 0,
+    "finding_ids": 100,
+    "active_stage": "6F.7",
+    "last_finalized_bounded_stage": "6F.6"
+  },
+  "selected_validation": {
+    "standalone_image4_tickets_verified_in_examined_scope": 868,
+    "additional_nested_image4_ticket_verified": 1,
+    "apple_format_pe_efi_signatures_verified_in_examined_scope": 69,
+    "intel_kernel_collection_bytes": 67584000,
+    "intel_kernel_collection_sha256": "c80161fa3065883753fc285339281361a8469cbb6fb27653c88e2a22eb4807a4",
+    "intel_kernel_collection_fileset_entries_indexed": 204,
+    "efi_typed_converter_branches_bounded": 22,
+    "firmware_macho_helper_paths_in_census": 11,
+    "firmware_efi_flasher_paths_in_census": 15,
+    "sandbox_nvram_set_fsa_records_bounded": 12,
+    "sandbox_normalized_name_conditions_bounded": 39
+  },
+  "interpretation_limit": "Counts and hashes are scoped to retained and reconstructed artifacts, not historical execution, device acceptance, or complete semantic coverage."
+}

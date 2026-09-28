@@ -1,0 +1,11 @@
+flowchart TD
+    A[AP ticket supplied by caller] --> B[Parse rfta / DGST property]
+    B --> C[Read Memory trust object]
+    C --> D{Present and matching SHA-256?}
+    D -- No --> E[Fetch through Remote store]
+    D -- Yes --> F[Hash selected object again]
+    E --> F
+    F --> G{Digest equals ticket property?}
+    G -- No --> X[Return false]
+    G -- Yes --> H[Put into copied first store and check result]
+    H --> I[Assign TrustObject options and return true]

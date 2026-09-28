@@ -1,0 +1,12 @@
+flowchart TD
+    U[Userspace registry request] --> M[MAC callbacks and allowed-key policy]
+    M --> A[Caller dictionary]
+    A --> B[Ordinary setProperty uses false override]
+    B --> C[Variable prefix and operation entitlement rules]
+    C --> D[Legacy rule plus root or Boolean-true entitlement]
+    D --> E{LocalPolicy storage GUID?}
+    E -->|Yes| F[Require bootpolicy.nvram entitlement]
+    E -->|No| G[Conversion and queue handling]
+    F --> G
+    G --> H[Sync privilege and runtime-service boundary]
+    X[Concrete MAC callbacks and caller credentials unresolved] -.-> M

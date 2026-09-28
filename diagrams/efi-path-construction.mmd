@@ -1,0 +1,12 @@
+flowchart TD
+  A[Installer or boot-property description] --> B{Input form}
+  B --> C[Typed XML array]
+  B --> D[IOMatch / IOService]
+  C --> E[Element type and field checks]
+  D --> F[Registry plane traversal]
+  F --> G[ACPI PCI USB media APFS context]
+  E --> H[EFI path nodes]
+  G --> H
+  H --> I[End node and OSData]
+  I --> J[AppleEFINVRAM companion variable]
+  J -. hardware acceptance unknown .-> K[EFI consumer]

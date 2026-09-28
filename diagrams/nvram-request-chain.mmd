@@ -1,0 +1,12 @@
+flowchart TD
+    A[bless serialized XML property] --> A1[IORegistry serialization and MAC policy gate]
+    A1 --> B[AppleEFINVRAM permission and GUID checks]
+    B --> C[AppleACPIPlatform parses XML array]
+    C --> D[Typed dictionaries and EFI node construction]
+    D --> E[Binary path plus separate boot metadata]
+    E --> F[Companion variable name with -data suffix]
+    F --> G[Cached and pending dictionaries]
+    G --> H[Sync iterates pending changes]
+    H --> I[AppleEFIRuntime and kernel PAL]
+    I --> J[Indirect EFI SetVariable request]
+    J --> K[Firmware acceptance and persistence unobserved]

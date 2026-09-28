@@ -1,0 +1,16 @@
+flowchart TD
+  A[Apple distribution and full installer] -->|exact matched counterparts| B[Retained macOS Install Data]
+  B --> C[UpdateBundle manifests and payload metadata]
+  B --> D[Intel Software Update RAMDisk]
+  B --> E[ARM and Intel BaseSystem images]
+  B --> F[Firmware and Image4 assets]
+  E --> G[softwareupdated and UpdateBrainLibrary]
+  G -->|bounded option writer| H[Update.plist]
+  H -. historical file absent from retained inventory .-> I[ramrod patch plugin]
+  D --> I
+  I -->|selected static call| J[ramrod sealing path]
+  C --> K[FirmwareUpdateLauncher]
+  K --> L[bless and EFI payload staging]
+  L --> M[AppleEFINVRAM EFI path conversion]
+  M --> N[EFI Runtime Services request]
+  N -. device acceptance unobserved .-> O[Firmware]

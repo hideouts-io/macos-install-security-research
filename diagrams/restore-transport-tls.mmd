@@ -1,0 +1,11 @@
+flowchart TD
+  F[FDR options] --> A[AMSupport session options]
+  A --> D[Server-trust challenge]
+  D --> X{Disable validation true?}
+  X -->|Yes| U[Use trust credential]
+  X -->|No| R{Custom root data supplied?}
+  R -->|No| S[Framework default handling]
+  R -->|Yes| C[Parse supplied certificates]
+  C --> H[Compare leaf DER or verify direct issuer]
+  H -->|Accepted| U
+  H -->|Failure| E[Set failure flag and cancel]
