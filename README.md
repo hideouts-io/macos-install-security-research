@@ -2,13 +2,15 @@
 
 > **PARTIAL RESEARCH SNAPSHOT — build 25G83.** This repository publishes completed bounded findings while Stage 6F.7 and the wider object-by-object audit remain unfinished. It does not certify an installed Mac, firmware state, or historical execution. [Current coverage and next step](docs/audit-status.md).
 
-**Installer, recovery RAMDisk, firmware, EFI, and platform-security forensics for macOS 26.6.2 build 25G83.** Research snapshot: September 27, 2026.
+**Installer, recovery RAMDisk, firmware, EFI, and platform-security forensics for macOS 26.6.2 build 25G83.** Research snapshot: September 30, 2026.
 
 The research began with a retained `macOS Install Data` staging tree. It compares that tree with the matching Apple distribution, reconstructs update and recovery images, and traces selected privileged paths from launch configuration through update services, ramrod, firmware helpers, EFI device paths, NVRAM, and trust checks. It also records what the collection cannot prove. The [audit overview](docs/audit-overview.md) gives the concise assessment; the pages below contain the evidence and limits.
 
 The partial snapshot is available as a [GitHub Pages research site](https://hideouts-io.github.io/macos-install-security-research/). The site and repository publish derived findings, not the private source evidence.
 
 > **Current boundary:** 147,253 inventory objects are registered across seven scopes. Eighty-five paths have bounded semantic review, 147,168 remain pending, and **zero whole objects have been declared completely reverse engineered**. Stage 6F.7 is partial. Same-build Bootability client, Startup Disk helper, and BootabilityBrain-to-`mount_apfs` request paths are statically bounded alongside the NVRAM resync route. No accepted resync or BootabilityService request, Brain/trust-cache path override, successful mount, final authorization or runtime boot-policy effect is established. The inventory is extensive; the semantic audit is not complete.
+
+**Latest static bound:** The matching ARM dyld cache contains 781 program prebuilt-loader sets with 117,753 bind targets. Sixty-nine bind to Bootability exports across ten program paths; none binds to the Brain or trust-cache path-option constants. This narrows one optimized-linking route, without identifying a path-value sender or a runtime service decision. See [boot trust](docs/secure-boot.md#bootability-dispatch-and-xpc-service-continuation).
 
 **NVRAM policy correction:** A previously described forced sandbox fallback has selector `0x100000000` and conditionally writes low status `1`, rather than leaving it zero. This corrects a static branch interpretation; whether a real caller took that branch remains unknown. See [sandbox policy and NVRAM authorization](docs/sandbox-policy.md).
 
