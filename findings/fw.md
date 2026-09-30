@@ -404,7 +404,7 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 ## FW-018 — Eight mappings cover seven helper names; eleven signed Mach-O helper paths and fifteen EFI flasher paths; psfupdater basename absent in enumerated trees
 
 **Status:** Observed compiled mapping and scoped absence  
-**Retained source:** `publication/README.md:1646` (explicit ID in source narrative)  
+**Retained source:** `publication/README.md:1650` (explicit ID in source narrative)  
 **Related public data:** [tables/efi-converter-branches.csv](../tables/efi-converter-branches.csv)  
 **Evidence level:** VERIFIED (bounded static or measured observation)  
 **Subsystem analysis:** [nvram-efi-paths](../docs/nvram-efi-paths.md)

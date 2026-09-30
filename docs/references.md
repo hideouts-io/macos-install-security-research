@@ -31,6 +31,8 @@ The links below were cited in the source audit narrative. Apple documentation an
 - [certificate-request header](https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/trust/headers/SecCertificateRequest.h#L76-L97)
 - [token attribute declaration](https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/keychain/headers/SecItemPriv.h#L344-L347)
 - [dyld format definitions](https://github.com/apple-oss-distributions/dyld/blob/fd8d0c4d52320ebf64db34f3cb280310d905c5ae/include/mach-o/dyld_cache_format.h#L33-L40)
+- [Apple XNU hibernation source, contextual older revision](https://github.com/apple-oss-distributions/xnu/blob/ac9718fb1af618d5ce8678d0dc6e8a58f252216f/iokit/Kernel/IOHibernateIO.cpp)
+- [Apple XNU IOService EFI-path symbol, contextual older revision](https://github.com/apple-oss-distributions/xnu/blob/ac9718fb1af618d5ce8678d0dc6e8a58f252216f/iokit/Kernel/IOService.cpp)
 - [XPC_CONNECTION_MACH_SERVICE_PRIVILEGED](https://developer.apple.com/documentation/xpc/xpc_connection_mach_service_privileged)
 - [Apple token-OID contract](https://github.com/apple-oss-distributions/Security/blob/db15acbe6a7f257a859ad9a3bb86097bfe0679d9/keychain/headers/SecItemPriv.h#L344-L347)
 - [SecTaskCreateFromSelf contract](https://developer.apple.com/documentation/security/sectaskcreatefromself%28_%3A%29)

@@ -197,7 +197,7 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 ## SIG-009 — Cleanup service code pages and populated special slots match; CMS integrity passes; blanket resource omit rules coexist with rejected bundle validation
 
 **Status:** bounded  
-**Retained source:** `publication/README.md:2041` (explicit ID in source narrative)  
+**Retained source:** `publication/README.md:2045` (explicit ID in source narrative)  
 **Related public data:** No independent per-ID dataset is published; see the scoped evidence description below.  
 **Evidence level:** VERIFIED (bounded static or measured observation)  
 **Subsystem analysis:** [code-signing-kernel](../docs/code-signing-kernel.md)
@@ -220,7 +220,7 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 ## SIG-010 — Fresh exact official BaseSystem and all five cleanup bundle files match; official image reproduces custom-omit rejection; supplied-root certificate checks pass
 
 **Status:** bounded  
-**Retained source:** `publication/README.md:2019` (explicit ID in source narrative)  
+**Retained source:** `publication/README.md:2023` (explicit ID in source narrative)  
 **Related public data:** No independent per-ID dataset is published; see the scoped evidence description below.  
 **Evidence level:** VERIFIED (bounded static or measured observation)  
 **Subsystem analysis:** [code-signing-kernel](../docs/code-signing-kernel.md)
@@ -238,4 +238,3 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 **Limit:** No fresh revocation proof, independent timestamp, full restore policy, ACL/xattr equivalence or runtime execution; signing policy rejection retained
 
 **Follow-up:** No fresh revocation proof, independent timestamp, full restore policy, ACL/xattr equivalence or runtime execution; signing policy rejection retained
-

@@ -12,6 +12,8 @@ The partial snapshot is available as a [GitHub Pages research site](https://hide
 
 **Latest static bound:** The matching ARM dyld cache contains 781 program prebuilt-loader sets with 117,753 bind targets. Sixty-nine bind to Bootability exports across ten program paths; none binds to the Brain or trust-cache path-option constants. This narrows one optimized-linking route, without identifying a path-value sender or a runtime service decision. See [boot trust](docs/secure-boot.md#bootability-dispatch-and-xpc-service-continuation).
 
+**Intel EFI-path continuation:** A same-build hibernation call chain requests a registry-derived EFI device path and offers its returned data as the `boot-image` NVRAM property. The path-construction result is checked; the later property setter's Boolean result is not propagated by its local helper. This is [a bounded static workflow](docs/nvram-efi-paths.md#a-hibernation-consumer-of-the-registry-derived-path), not evidence of a failed write or observed resume.
+
 **NVRAM policy correction:** A previously described forced sandbox fallback has selector `0x100000000` and conditionally writes low status `1`, rather than leaving it zero. This corrects a static branch interpretation; whether a real caller took that branch remains unknown. See [sandbox policy and NVRAM authorization](docs/sandbox-policy.md).
 
 ## Read the research

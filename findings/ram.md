@@ -220,7 +220,7 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 ## RAM-010 — Zeroed saved-context loader populates named fields; no ordinary local write sets flag0x80 selecting validation shortcut
 
 **Status:** bounded  
-**Retained source:** `publication/README.md:1923` (explicit ID in source narrative)  
+**Retained source:** `publication/README.md:1927` (explicit ID in source narrative)  
 **Related public data:** No independent per-ID dataset is published; see the scoped evidence description below.  
 **Evidence level:** VERIFIED (bounded static or measured observation)  
 **Subsystem analysis:** [installer-workflow](../docs/installer-workflow.md)
@@ -243,7 +243,7 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 ## RAM-011 — Prepare/resume register numeric context handles; apply/suspend require membership; suspend tests writer failure and attempts output deletion
 
 **Status:** bounded  
-**Retained source:** `publication/README.md:1923` (explicit ID in source narrative)  
+**Retained source:** `publication/README.md:1927` (explicit ID in source narrative)  
 **Related public data:** No independent per-ID dataset is published; see the scoped evidence description below.  
 **Evidence level:** VERIFIED (bounded static or measured observation)  
 **Subsystem analysis:** [installer-workflow](../docs/installer-workflow.md)
@@ -266,7 +266,7 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 ## RAM-012 — Cleanup commands require Boolean-true helper entitlement; omitted reset-reserve flag defaults true; loaded-context validation failure frees context and returns null
 
 **Status:** bounded  
-**Retained source:** `publication/README.md:1933` (explicit ID in source narrative)  
+**Retained source:** `publication/README.md:1937` (explicit ID in source narrative)  
 **Related public data:** No independent per-ID dataset is published; see the scoped evidence description below.  
 **Evidence level:** VERIFIED (bounded static or measured observation)  
 **Subsystem analysis:** [installer-workflow](../docs/installer-workflow.md)
@@ -289,7 +289,7 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 ## RAM-013 — Cleanup retains selected preflight/suspended/pending paths; false purge permits later removal; outer success can coexist with cleanup errors
 
 **Status:** bounded  
-**Retained source:** `publication/README.md:1954` (explicit ID in source narrative)  
+**Retained source:** `publication/README.md:1958` (explicit ID in source narrative)  
 **Related public data:** No independent per-ID dataset is published; see the scoped evidence description below.  
 **Evidence level:** VERIFIED (bounded static or measured observation)  
 **Subsystem analysis:** [installer-workflow](../docs/installer-workflow.md)
@@ -312,7 +312,7 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 ## RAM-014 — Cleanup connection lifecycle and separate cleanup-target override traced; omitted UUID selects root media; target setter performs setup and can return true after some setup failures
 
 **Status:** bounded  
-**Retained source:** `publication/README.md:1976` (explicit ID in source narrative)  
+**Retained source:** `publication/README.md:1980` (explicit ID in source narrative)  
 **Related public data:** No independent per-ID dataset is published; see the scoped evidence description below.  
 **Evidence level:** VERIFIED (bounded static or measured observation)  
 **Subsystem analysis:** [installer-workflow](../docs/installer-workflow.md)
@@ -335,7 +335,7 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 ## RAM-015 — Constructor validation failure frees outer context; snapshot-prepare failure skips new success handle; internal no-op flag producer used by asset-staging progress code
 
 **Status:** bounded  
-**Retained source:** `publication/README.md:2000` (explicit ID in source narrative)  
+**Retained source:** `publication/README.md:2004` (explicit ID in source narrative)  
 **Related public data:** No independent per-ID dataset is published; see the scoped evidence description below.  
 **Evidence level:** VERIFIED (bounded static or measured observation)  
 **Subsystem analysis:** [installer-workflow](../docs/installer-workflow.md)
@@ -353,4 +353,3 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 **Limit:** No full alias/reuse/removal or nested-resource lifecycle proof; static Intel code; no verification bypass established
 
 **Follow-up:** No full alias/reuse/removal or nested-resource lifecycle proof; static Intel code; no verification bypass established
-

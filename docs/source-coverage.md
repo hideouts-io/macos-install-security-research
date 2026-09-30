@@ -33,20 +33,20 @@ The private `publication/README.md` narrative has 37 substantive second-level se
 | `publication/README.md:1372` — FirmwareUpdateLauncher and the upstream staging workflow | [firmware-flashers](firmware-flashers.md) |
 | `publication/README.md:1406` — bless and MultiUpdater boot handoff | [firmware-flashers](firmware-flashers.md) |
 | `publication/README.md:1461` — Kernel NVRAM conversion and firmware helper selection | [nvram-efi-paths](nvram-efi-paths.md) |
-| `publication/README.md:1697` — Ramrod and APFS sealing | [ramdisk-ramrod](ramdisk-ramrod.md) |
-| `publication/README.md:1762` — Update brain and Update.plist | [installer-workflow](installer-workflow.md) |
-| `publication/README.md:1816` — Command authorization and endpoints | [installer-workflow](installer-workflow.md) |
-| `publication/README.md:1850` — Brain receiver and prepare/apply guards | [installer-workflow](installer-workflow.md) |
-| `publication/README.md:1883` — Verification-state flag and error propagation | [installer-workflow](installer-workflow.md) |
-| `publication/README.md:2015` — Code signatures and kernel collections | [code-signing-kernel](code-signing-kernel.md) |
-| `publication/README.md:2069` — Firmware and Option ROM catalog | [firmware-catalog](firmware-catalog.md) |
-| `publication/README.md:2099` — Image4 signatures and certificate constraints | [secure-boot](secure-boot.md) |
-| `publication/README.md:2128` — Trust caches and representation differences | [secure-boot](secure-boot.md) |
-| `publication/README.md:2162` — Firmware measurement details | [firmware-catalog](firmware-catalog.md) |
-| `publication/README.md:2213` — EFI signatures and Product.efi | [firmware-catalog](firmware-catalog.md) |
-| `publication/README.md:2241` — SSV and secure-boot boundaries | [sealed-system-volume](sealed-system-volume.md) |
-| `publication/README.md:2261` — Resolved anomalies and corrections | [corrections](corrections.md) |
-| `publication/README.md:2280` — Reproduction and evidence map | [reproduction](reproduction.md) |
-| `publication/README.md:2359` — Remaining work | [audit-status](audit-status.md) |
+| `publication/README.md:1699` — Ramrod and APFS sealing | [ramdisk-ramrod](ramdisk-ramrod.md) |
+| `publication/README.md:1764` — Update brain and Update.plist | [installer-workflow](installer-workflow.md) |
+| `publication/README.md:1818` — Command authorization and endpoints | [installer-workflow](installer-workflow.md) |
+| `publication/README.md:1852` — Brain receiver and prepare/apply guards | [installer-workflow](installer-workflow.md) |
+| `publication/README.md:1885` — Verification-state flag and error propagation | [installer-workflow](installer-workflow.md) |
+| `publication/README.md:2017` — Code signatures and kernel collections | [code-signing-kernel](code-signing-kernel.md) |
+| `publication/README.md:2071` — Firmware and Option ROM catalog | [firmware-catalog](firmware-catalog.md) |
+| `publication/README.md:2101` — Image4 signatures and certificate constraints | [secure-boot](secure-boot.md) |
+| `publication/README.md:2130` — Trust caches and representation differences | [secure-boot](secure-boot.md) |
+| `publication/README.md:2164` — Firmware measurement details | [firmware-catalog](firmware-catalog.md) |
+| `publication/README.md:2215` — EFI signatures and Product.efi | [firmware-catalog](firmware-catalog.md) |
+| `publication/README.md:2243` — SSV and secure-boot boundaries | [sealed-system-volume](sealed-system-volume.md) |
+| `publication/README.md:2263` — Resolved anomalies and corrections | [corrections](corrections.md) |
+| `publication/README.md:2282` — Reproduction and evidence map | [reproduction](reproduction.md) |
+| `publication/README.md:2361` — Remaining work | [audit-status](audit-status.md) |
 
 The original table of contents and publication-directory description are navigation metadata, so they are not counted among the 37 substantive sections. This repository reorganizes the narrative by subsystem. Stage 6F.7 remains partial and the complete 147,253-object dataset has not received whole-object semantic closure.
