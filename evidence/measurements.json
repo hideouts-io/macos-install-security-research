@@ -1,8 +1,11 @@
 {
-  "snapshot_date": "2026-09-27",
+  "snapshot_date": "2026-09-29",
   "macos_version": "26.6.2",
   "build": "25G83",
-  "target_metadata": ["J160AP", "MacPro7,1"],
+  "target_metadata": [
+    "J160AP",
+    "MacPro7,1"
+  ],
   "source_comparison": {
     "original_regular_files": 1191,
     "original_files_matching_working_copy": 1191,
@@ -17,15 +20,29 @@
     "source_and_reconstructed_scopes": 7,
     "regular_file_paths": 105123,
     "inventory_objects": 147253,
-    "bounded_semantic_paths": 72,
-    "detailed_bounded_path_records": 30,
+    "bounded_semantic_paths": 76,
+    "detailed_bounded_path_records": 34,
     "other_bounded_path_records": 42,
-    "semantic_paths_pending": 147181,
+    "semantic_paths_pending": 147177,
     "separately_bounded_embedded_components": 8,
     "whole_objects_closed": 0,
     "finding_ids": 100,
     "active_stage": "6F.7",
-    "last_finalized_bounded_stage": "6F.6"
+    "last_finalized_bounded_stage": "6F.6",
+    "bootability_runner_mount_auth_instructions_checked": 6252,
+    "bootability_runner_independent_call_anchors": 37,
+    "bootability_class_references_resolved": 21,
+    "bootability_service_instructions_checked": 4814,
+    "bootability_service_relative_methods_resolved": 23,
+    "bootability_service_selector_stubs_resolved": 80,
+    "bootability_service_independent_call_anchors": 15,
+    "bootability_service_loader_option_keys_resolved": 2,
+    "bootability_service_client_instructions_checked": 220,
+    "bootability_service_client_methods_resolved": 12,
+    "bootability_loader_authority_call_anchors": 22,
+    "bootability_loader_authority_branch_anchors": 11,
+    "bootability_entitled_candidate_executable_hashes": 13,
+    "bootability_entitled_candidate_catalog_paths": 14
   },
   "selected_validation": {
     "standalone_image4_tickets_verified_in_examined_scope": 868,
@@ -38,7 +55,14 @@
     "firmware_macho_helper_paths_in_census": 11,
     "firmware_efi_flasher_paths_in_census": 15,
     "sandbox_nvram_set_fsa_records_bounded": 12,
-    "sandbox_normalized_name_conditions_bounded": 39
+    "sandbox_normalized_name_conditions_bounded": 39,
+    "intel_nvram_selected_instructions_checked": 18,
+    "same_build_iokit_wrapper_instructions_checked": 172,
+    "intel_nvram_assignment_instructions_checked": 353,
+    "intel_nvram_assignment_otool_anchors": 23,
+    "resync_specialized_platform_unknown_filter_paths": 28,
+    "bootability_entry_queue_instructions_checked": 725,
+    "bootability_independent_named_call_anchors": 20
   },
   "interpretation_limit": "Counts and hashes are scoped to retained and reconstructed artifacts, not historical execution, device acceptance, or complete semantic coverage."
 }

@@ -281,9 +281,9 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 
 **Confidence field:** Unknown in this new field; prior status/evidence classification preserved
 
-**Limit:** No inventoried psfupdater path; initiating caller/helper validation, bless/kernel policy and EFI handoff remain unknown; no execution or writes performed
+**Limit:** No inventoried psfupdater path; a USB-C helper corroborates the generic schema, while initiating caller/helper authority, effective kernel/firmware policy and PSF-specific handoff remain unknown; no execution or writes performed
 
-**Follow-up:** No inventoried psfupdater path; initiating caller/helper validation, bless/kernel policy and EFI handoff remain unknown; no execution or writes performed
+**Follow-up:** Locate an authoritative same-build psfupdater or alternate producer; trace launcher acceptance and device-side trust without running an updater on the production host
 
 <a id="fw-013"></a>
 ## FW-013 — bless stages payloads and serializes EFI media paths/boot options for an IOKit NVRAM property request; signed private installer/boot/snapshot/NVRAM entitlements present
@@ -491,4 +491,3 @@ The [source crosswalk](../tables/finding-provenance.csv) maps every ID to a reta
 **Limit:** No resync request or firmware-error induction; equality and concrete sandboxcallback traced, but evaluator/profile/caller and firmware-error reachability unresolved; no demonstrated deadlock or denial of service
 
 **Follow-up:** Resolve sb_evaluate_internal3033f55, effectiveprofile/globalpolicy, remainingMACregistration/kernelcallers and firmwareerrors before isolated dynamicvalidation
-

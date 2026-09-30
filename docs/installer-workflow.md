@@ -142,6 +142,8 @@ Additional traced conditions narrow that chain:
 
 No direct overwrite or deletion of DoNotSeal was identified in the reviewed local mutation sites. Helpers receive the dictionary, so its preservation through every transitive call remains unproven. Stage 4I below traces prepare/resume handle creation; ownership/expiry, the complete restored-context lifecycle, endpoint forwarding and authorized client origin remain open. This is not an exploit, an unfiltered input route, or evidence that a particular update chose DoNotSeal.
 
+A follow-up census of the retained recovery executable/signing subset parsed 891 entitlement plists among 2,091 saved entitlement files and found 18 x86_64/arm64e hash records declaring `allow-softwareupdated=true`. They represent nine component families, including installer/update assistants, `softwareupdatemaccontrollerd`, `mobileassetd`, `secd`, `cryptegraft` and its service. Twelve saved signature checks exited zero; six bundled app/XPC checks reported an obsolete resource envelope. These are potential holders of the **named command entitlement**, not observed senders of `ClientOptions` or `DoNotSeal`. Bundle-level verification, caller identity, endpoint access and historical `Update.plist` ownership/ACLs remain unresolved.
+
 
 <a id="verification-state-flag-and-error-propagation"></a>
 ## Verification-state flag and error propagation
@@ -281,5 +283,4 @@ The snapshot-failure result extends the earlier `_verify_postbom` → `_prepare_
 The no-op context is an explicit internal object used by asset-staging progress code. Its existence provides a concrete explanation for one producer of `0x80`; it does not show that a saved plist or unauthorized caller can set that flag. The earlier result that the ordinary saved-context loader does not populate this raw flag remains intact. No connection from this asset-staging object to an accepted verification bypass has been established. No vulnerability severity is assigned.
 
 **Evidence and limits:** 13 selected functions contain 7,076 original-byte-checked instruction records. The pass checks 84 import stubs, 358 indirect import references and 669 selector/CFString references. Counts include earlier overlap and branches outside the conclusions above; they are not a count of fully understood instructions. Semantic coverage remains 38 bounded inventory paths and four embedded components. Full handle removal/expiry, client ownership, transitive resource disposal, target-override authority and ARM behavior remain open. The next bounded pass examines the cleanup bundle's unresolved signature/resource-envelope rejection.
-
 

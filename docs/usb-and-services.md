@@ -76,6 +76,8 @@ The public [wrapper source](https://github.com/apple-oss-distributions/OpenSSH/b
 
 **SVC-003 — USB mux sandbox.** In the identical `com.apple.usbmuxd.sb` files, the permissive “Training wheels ON” examples are comments. Active rules use deny-default with imports and exceptions for USB user clients, selected files/Mach services and outbound networking. The outbound permission and lockdown-directory access are capabilities, not traffic or pairing evidence. Imported policy composition and the actual consumer remain untraced; a sandbox profile or account record does not establish a running usbmuxd.
 
+A later inventory-hash cross-check found the same six remoted Mach-service declarations and `KeepAlive=true` in both packaged BaseSystems; their `ssh.plist` files declare `Disabled=true`. Each BaseSystem has five usbmuxd-named account/template/profile paths, but no path with executable basename `usbmuxd` or LaunchDaemon basename `com.apple.usbmuxd.plist`. This limits claims about **these packaged images**. It does not describe the installed host's launchd state or exclude a daemon from another system volume/container, and it establishes no accepted USB or remote session.
+
 These three findings have high confidence for the listed configuration and local code paths, with no confirmed security bypass or vulnerability severity. ARM instruction-level equivalence and complete protocol authentication remain open.
 
 <a id="filevault-helper-what-actually-gates-the-unlock-request"></a>
@@ -535,5 +537,4 @@ The reference-import function (`0x7ff903686ad7`) returns `0xe00002c2` on its ini
 **Decoder limits were preserved rather than hidden.** The get-DER thunk consists of ten code bytes followed by seven zero bytes before the next function-start entry. The signing body ends in a return followed by four zero bytes. Those suffixes are retained as padding and excluded from the **390 selected instruction records**. Four body functions and the thunk were byte-checked against retained regions. Several import-stub indirect-table entries contain zero, which mechanically yields an unrelated first-symbol label; those labels are explicitly excluded from callee attribution. The report uses checked internal symbol addresses and leaves external stub targets unresolved.
 
 AppleKeyStore now has a fourth **bounded embedded-component review**. The inventory-path count remains36; the companion cache as a whole is not marked reviewed. No key, identity, credential reference or authentication context was obtained, no signing request was issued, and no severity is assigned. The next work returns to update-brain/ramrod lifecycle analysis. The AKS operation backend, parameter-field guarantees, cache-hit authority from Q29 and ARM equivalence remain explicit follow-up work.
-
 

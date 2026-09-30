@@ -23,7 +23,7 @@ The recommended publication layout is a standalone `hideouts-io/macos-install-se
 
 ## PARTIAL
 
-- Stage 6F.7 is still partial: 147,253 registered objects, 72 bounded semantic paths, 147,181 pending, and zero whole-object closures. The [audit status](audit-status.md) gives the exact next trace. Static reachability does not establish execution, authorization, a persistent NVRAM change, firmware flashing, or compromise.
+- At this dated pre-push review, Stage 6F.7 was partial: 147,253 registered objects, 72 bounded semantic paths, 147,181 pending, and zero whole-object closures. The [current audit status](audit-status.md) gives the updated count and next trace. Static reachability does not establish execution, authorization, a persistent NVRAM change, firmware flashing, or compromise.
 - Source-document hashes and three CSV copies were checked against the retained local audit, but readers without the private original evidence cannot reproduce every reverse-engineering result from the public repository alone.
 - At this local pre-push checkpoint, GitHub-hosted Pages and the GitHub Actions workflow had not run. Local build and rendered checks are complete for the configured project path; later hosted results must be checked on GitHub.
 - The external-reference probe returned 70 HTTP 200 responses and one HTTP 403 for Microchip's PM40100 product page. The latter is a server denial to this client, not a confirmed dead link; the page is indexed by search. No confirmed 404s remained after three malformed parenthesized Markdown URLs were repaired.

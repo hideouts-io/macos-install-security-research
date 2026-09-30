@@ -10,7 +10,7 @@ title: Local repository readiness review
 **Repository:** `macos-install-security-research`  
 **Local review:** September 28, 2026  
 **Git state at local review:** initialized on `main`, uncommitted; no remote, push, Pages deployment, release, or tag.  
-**Research state:** Stage 6F.7 remains **partial**. The 147,253-object register has 72 bounded semantic paths, 147,181 pending paths, and zero whole-object closures.
+**Research state, September 29 update:** Stage 6F.7 remains **partial**. The 147,253-object register has 76 bounded semantic paths, 147,177 pending paths, and zero whole-object closures. The local-review and first-publication checks below remain dated records; validate each subsequent revision independently.
 
 **Published outcome:** [standalone repository](https://github.com/hideouts-io/macos-install-security-research) and [GitHub Pages site](https://hideouts-io.github.io/macos-install-security-research/) are public. The first corrected publication commit, `0da15ca`, passed [GitHub Actions validation](https://github.com/hideouts-io/macos-install-security-research/actions/runs/36400645630) and the [Pages deployment](https://github.com/hideouts-io/macos-install-security-research/actions/runs/36400821744). The hosted homepage, audit-status page, one finding page, one SVG diagram, and `LICENSE` each returned HTTP 200. The research coverage remains partial despite successful publication checks.
 
