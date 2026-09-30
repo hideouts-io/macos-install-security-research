@@ -7,7 +7,7 @@ title: Coverage register
 
 [Home](../README.md) · [Findings](findings-index.md) · [Status](audit-status.md)
 
-At the September 30, 2026 checkpoint, the audit register contains **147,253** objects across seven inventoried source/image scopes: **78** paths have bounded semantic records (**36** detailed, **42** other bounded), and **147,175** remain pending semantic reconciliation. Eight embedded components have separate bounded records. **Zero whole objects are closed.** These are coverage labels, not vulnerability or integrity scores.
+At the September 30, 2026 checkpoint, the audit register contains **147,253** objects across seven inventoried source/image scopes: **85** paths have bounded semantic records (**43** detailed, **42** other bounded), and **147,168** remain pending semantic reconciliation. Eight embedded components have separate bounded records. **Zero whole objects are closed.** These are coverage labels, not vulnerability or integrity scores.
 
 The seven trees include **105,123 regular-file paths**. Repeated or hard-linked paths are not unique binary counts. Inventory enumeration and hashing are broader than instruction-level review. Stage 5A parsed 78,465 plists, and Stage 5B classified 19 launch socket groups, but these bulk passes do not make every plist or service semantically complete. The [inventory page](inventory-images.md) gives per-scope counts and image formats.
 

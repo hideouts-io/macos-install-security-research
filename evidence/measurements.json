@@ -20,10 +20,10 @@
     "source_and_reconstructed_scopes": 7,
     "regular_file_paths": 105123,
     "inventory_objects": 147253,
-    "bounded_semantic_paths": 78,
-    "detailed_bounded_path_records": 36,
+    "bounded_semantic_paths": 85,
+    "detailed_bounded_path_records": 43,
     "other_bounded_path_records": 42,
-    "semantic_paths_pending": 147175,
+    "semantic_paths_pending": 147168,
     "separately_bounded_embedded_components": 8,
     "whole_objects_closed": 0,
     "finding_ids": 100,
@@ -49,7 +49,10 @@
     "bootability_bputil_instructions_checked": 40,
     "bootability_lp_mount_instructions_checked": 652,
     "bootability_lp_spawn_helper_instructions_checked": 284,
-    "bootability_mount_apfs_selected_instructions_checked": 8
+    "bootability_mount_apfs_selected_instructions_checked": 8,
+    "bootability_option_client_paths_bounded": 6,
+    "bootability_startupdisk_launch_plist_paths_bounded": 1,
+    "bootability_option_client_instructions_checked": 533
   },
   "selected_validation": {
     "standalone_image4_tickets_verified_in_examined_scope": 868,
