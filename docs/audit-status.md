@@ -14,7 +14,7 @@ title: "Current audit status and remaining work"
 <a id="exact-next-investigative-action"></a>
 ## Exact next investigative action
 
-Search remaining Restore/update option dictionaries and ARM shared-cache cross-image references for a producer of `BootabilityBrainPath` and `BootabilityTrustcachePath`; six selected same-build client traces do not produce those keys. Search retained ARM kernel/IMG4 sources for the AMFI selector-2 implementation and continue the separate NVRAM operation-118 process-profile/final-policy queue. The `bputil`, Startup Disk helper and BootabilityBrain-to-`mount_apfs` request chains are bounded, but no accepted service peer, successful mount, actual framework choice, resync request or firmware error is observed.
+Search remaining Restore/update option dictionaries and ARM shared-cache cross-image references for a producer of `BootabilityBrainPath` and `BootabilityTrustcachePath`; six selected same-build client traces do not produce those keys. Search retained ARM kernel/IMG4 sources for the AMFI selector-2 implementation. A separate operation-118 correction established that the forced fallback action conditionally writes low status `1`, fixing an earlier zero-selector error; its real caller profile, active policy, resync request and firmware-error reachability remain unknown. The `bputil`, Startup Disk helper and BootabilityBrain-to-`mount_apfs` request chains are bounded, but no accepted service peer, successful mount or actual framework choice is observed.
 
 <a id="ranked-review-checkpoint"></a>
 ## Ranked review checkpoint

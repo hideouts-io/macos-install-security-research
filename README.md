@@ -10,6 +10,8 @@ The partial snapshot is available as a [GitHub Pages research site](https://hide
 
 > **Current boundary:** 147,253 inventory objects are registered across seven scopes. Eighty-five paths have bounded semantic review, 147,168 remain pending, and **zero whole objects have been declared completely reverse engineered**. Stage 6F.7 is partial. Same-build Bootability client, Startup Disk helper, and BootabilityBrain-to-`mount_apfs` request paths are statically bounded alongside the NVRAM resync route. No accepted resync or BootabilityService request, Brain/trust-cache path override, successful mount, final authorization or runtime boot-policy effect is established. The inventory is extensive; the semantic audit is not complete.
 
+**NVRAM policy correction:** A previously described forced sandbox fallback has selector `0x100000000` and conditionally writes low status `1`, rather than leaving it zero. This corrects a static branch interpretation; whether a real caller took that branch remains unknown. See [sandbox policy and NVRAM authorization](docs/sandbox-policy.md).
+
 ## Read the research
 
 | Start here | What it contains |
