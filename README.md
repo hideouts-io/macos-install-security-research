@@ -8,7 +8,7 @@ The research began with a retained `macOS Install Data` staging tree. It compare
 
 The partial snapshot is available as a [GitHub Pages research site](https://hideouts-io.github.io/macos-install-security-research/). The site and repository publish derived findings, not the private source evidence.
 
-> **Current boundary:** 147,253 inventory objects are registered across seven scopes. Seventy-six paths have bounded semantic review, 147,177 remain pending, and **zero whole objects have been declared completely reverse engineered**. Stage 6F.7 is partial. The corrected NVRAM resync property, conditional command-input route and intermediate platform-rule result are documented; BootabilityBrain dispatch, the BootabilityService XPC route and selected loader branches are bounded. No accepted resync request or BootabilityService peer, final authorization or runtime boot-policy effect is established. The inventory is extensive; the semantic audit is not complete.
+> **Current boundary:** 147,253 inventory objects are registered across seven scopes. Seventy-eight paths have bounded semantic review, 147,175 remain pending, and **zero whole objects have been declared completely reverse engineered**. Stage 6F.7 is partial. A same-build `bputil` call through Bootability's XPC client and a BootabilityBrain-to-`mount_apfs` request chain are now statically bounded alongside the NVRAM resync route. No accepted resync request or BootabilityService peer, successful mount, final authorization or runtime boot-policy effect is established. The inventory is extensive; the semantic audit is not complete.
 
 ## Read the research
 

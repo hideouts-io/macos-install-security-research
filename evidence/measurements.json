@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-09-29",
+  "snapshot_date": "2026-09-30",
   "macos_version": "26.6.2",
   "build": "25G83",
   "target_metadata": [
@@ -20,10 +20,10 @@
     "source_and_reconstructed_scopes": 7,
     "regular_file_paths": 105123,
     "inventory_objects": 147253,
-    "bounded_semantic_paths": 76,
-    "detailed_bounded_path_records": 34,
+    "bounded_semantic_paths": 78,
+    "detailed_bounded_path_records": 36,
     "other_bounded_path_records": 42,
-    "semantic_paths_pending": 147177,
+    "semantic_paths_pending": 147175,
     "separately_bounded_embedded_components": 8,
     "whole_objects_closed": 0,
     "finding_ids": 100,
@@ -42,7 +42,14 @@
     "bootability_loader_authority_call_anchors": 22,
     "bootability_loader_authority_branch_anchors": 11,
     "bootability_entitled_candidate_executable_hashes": 13,
-    "bootability_entitled_candidate_catalog_paths": 14
+    "bootability_entitled_candidate_catalog_paths": 14,
+    "bootability_manager_methods_resolved": 18,
+    "bootability_authentication_context_methods_resolved": 19,
+    "bootability_client_framework_instructions_checked": 146,
+    "bootability_bputil_instructions_checked": 40,
+    "bootability_lp_mount_instructions_checked": 652,
+    "bootability_lp_spawn_helper_instructions_checked": 284,
+    "bootability_mount_apfs_selected_instructions_checked": 8
   },
   "selected_validation": {
     "standalone_image4_tickets_verified_in_examined_scope": 868,

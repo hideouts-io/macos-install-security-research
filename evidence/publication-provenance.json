@@ -1,13 +1,13 @@
 {
-  "snapshot_date": "2026-09-29",
+  "snapshot_date": "2026-09-30",
   "build": "25G83",
   "source": "Local read-only analysis workspace; not redistributed",
   "source_publication_sha256": {
-    "publication/README.md": "386a2539865f264b10a32ff2241bd59b99b483589db0202446761b431c0240ec",
+    "publication/README.md": "05e37f9b28ddf1cd41d2730f4cf8de9a6da2735fe7f21c8449d25c99386b3bb9",
     "publication/FINDINGS.csv": "cacb28174a99b86f27f0d00f69a44d3aabaf2c1f7829995e5b8311f5c2942f79",
     "publication/FIRMWARE_HELPERS.csv": "c8355b9b56f3ae5ec933e9a580bb31b2d476389b05c5055735e2c5b694670dc2",
     "publication/EFI_CONVERTER_BRANCHES.csv": "31d5de4c0cd78904d3dbcd581a87ecd39935299939e67f3b3daf17473ea719ec",
-    "REPORT.md": "a345a963b246603f4a9e5a628fd7a5313abb1f7d329f4308d391326b100604df",
+    "REPORT.md": "4d36bcf54bcea75e50f59fdf968663239d66a23ae3b6752b9fbefa29acfe1fd0",
     "STAGE2_COMPARISON.md": "869fb9f19f834915ca838d38fc40a6f74376f57b29f2dc525f58884dc302ef5b",
     "STAGE3_FIRMWARE.md": "9fd1ee7acfab47c3bffc9495e41d55bd42fd8d79f06807d7e04231d91030a73a",
     "STAGE4_RAMROD.md": "3c463496f5b377cc1e8dac261c5fed052844fd753f671112eea03aaf331c2769",
