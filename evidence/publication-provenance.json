@@ -3,11 +3,11 @@
   "build": "25G83",
   "source": "Local read-only analysis workspace; not redistributed",
   "source_publication_sha256": {
-    "publication/README.md": "399aa65b33d7e9b74f7cb28f6db18fb5df10bb80a4769d68dbadbdec4d96746b",
+    "publication/README.md": "753c9fdf4aec9184d60e8f88fa29a3a5cab8fa9628c368a1a52f9bd8581d673f",
     "publication/FINDINGS.csv": "cacb28174a99b86f27f0d00f69a44d3aabaf2c1f7829995e5b8311f5c2942f79",
     "publication/FIRMWARE_HELPERS.csv": "c8355b9b56f3ae5ec933e9a580bb31b2d476389b05c5055735e2c5b694670dc2",
     "publication/EFI_CONVERTER_BRANCHES.csv": "31d5de4c0cd78904d3dbcd581a87ecd39935299939e67f3b3daf17473ea719ec",
-    "REPORT.md": "b3c00d219e9c6364be9f68b99463e5e77d563886f7033b67e44f0d8c7387fd06",
+    "REPORT.md": "1e68d7ae29ff2ef6c1e5883180e112e0188dbdc4b6b0ed76ca6517710919961f",
     "STAGE2_COMPARISON.md": "869fb9f19f834915ca838d38fc40a6f74376f57b29f2dc525f58884dc302ef5b",
     "STAGE3_FIRMWARE.md": "9fd1ee7acfab47c3bffc9495e41d55bd42fd8d79f06807d7e04231d91030a73a",
     "STAGE4_RAMROD.md": "3c463496f5b377cc1e8dac261c5fed052844fd753f671112eea03aaf331c2769",

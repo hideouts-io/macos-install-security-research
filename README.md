@@ -14,7 +14,7 @@ The partial snapshot is available as a [GitHub Pages research site](https://hide
 
 **Intel EFI-path continuation:** A same-build hibernation call chain requests a registry-derived EFI device path and offers its returned data as the `boot-image` NVRAM property. The path-construction result is checked; the later property setter's Boolean result is not propagated by its local helper. This is [a bounded static workflow](docs/nvram-efi-paths.md#a-hibernation-consumer-of-the-registry-derived-path), not evidence of a failed write or observed resume.
 
-**NVRAM cache continuation:** The matching driver constructs its immediate-write GUID list from a conditional `NoCacheGuids` firmware value and three built-in GUIDs. This [static input and cache-selection trace](docs/nvram-efi-paths.md#nvram-deletion-internal-writes-and-the-userspace-boundary) does not establish the value's actual contents, writer authority or a permission bypass.
+**NVRAM cache continuation:** The matching driver constructs its immediate-write GUID list from a conditional `NoCacheGuids` firmware value and three built-in GUIDs. Its ordinary [driver-local write check](docs/nvram-efi-paths.md#nocacheguids-ordinary-write-gate-and-producer-limit) requires root privilege or the NVRAM write entitlement. A bounded literal search found no concrete writer; the value, effective authorization and firmware impact remain unknown.
 
 **NVRAM policy correction:** A previously described forced sandbox fallback has selector `0x100000000` and conditionally writes low status `1`, rather than leaving it zero. This corrects a static branch interpretation; whether a real caller took that branch remains unknown. See [sandbox policy and NVRAM authorization](docs/sandbox-policy.md).
 
